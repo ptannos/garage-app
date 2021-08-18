@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-garageapp-dev-184715-authRole",
+      "UnauthRoleArn": "arn:aws:iam::279651707774:role/amplify-garageapp-dev-184715-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::279651707774:role/amplify-garageapp-dev-184715-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-garageapp-dev-184715-deployment",
+      "UnauthRoleName": "amplify-garageapp-dev-184715-unauthRole",
+      "StackName": "amplify-garageapp-dev-184715",
+      "StackId": "arn:aws:cloudformation:us-east-1:279651707774:stack/amplify-garageapp-dev-184715/137e4700-ffad-11eb-a87a-0aac593f749d",
+      "AmplifyAppId": "d1xosvbbhg22t6"
+    },
+    "categories": {
+      "auth": {
+        "garageapp27108fd9": {}
+      }
+    }
+  }
+}
