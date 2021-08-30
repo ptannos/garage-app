@@ -14,6 +14,12 @@
     "categories": {
       "auth": {
         "garageapp27108fd9": {}
+      },
+      "function": {
+        "garagesfunction": {
+          "deploymentBucketName": "amplify-garageapp-dev-184715-deployment",
+          "s3Key": "amplify-builds/garagesfunction-4842424e34464b452f4d-build.zip"
+        }
       }
     }
   }

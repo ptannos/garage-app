@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/garages",
+      "lambdaFunction": "garagesfunction",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/garages"
+    }
+  ],
+  "resourceName": "garageapi",
+  "apiName": "garageapi",
+  "functionArns": [
+    {
+      "lambdaFunction": "garagesfunction"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-garageapp-dev-184715-authRole",
+    "unAuthRoleName": "amplify-garageapp-dev-184715-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "garagesfunction",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
